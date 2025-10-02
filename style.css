@@ -20,18 +20,9 @@ body {
     justify-content: space-between;
 }
 
-.dashed {
-    border: dashed 2px black;
-}
-
 header {
-    background-color: rgb(155, 236, 241);
+    background-color: rgba(49, 96, 224, 1);
     padding: 1em 0 5px 0;
-}
-
-#bgorange {
-    background-color: orange;
-    color: black;
 }
 
 .logo {
@@ -43,38 +34,45 @@ header {
     width: 60%;
     padding: 3px;
     text-align: center;
+    justify-content: space-between;
 }
 
 .login {
-    width: 20%;  
-    padding: 3px;
+    background-color: white;
     text-align: end;
+    border-radius: 33%;
+    height: 81%;
+    padding: 10px;
+    color: black;
 }
 
 
 .container2 {
    display: flex;
-   background-color: rgb(212, 96, 203);
-   width: 30%;
+   width:30%;
    height: 350px;
    justify-content: center;
+   flex-direction: column;
+   text-align: center;
 }
 
 #layout1 {
     background-color: rgb(0, 0, 182);
     margin-top: 15px;
+    background-image: url(img/jumbo.png);
+    background-size: cover;
+    height: 650px;
 }
 
 .smallbox {
     width: 35%;
     height: 350px;
-    background-color: rgb(241, 171, 171);
+    color: black;
 }
 
 .bigbox {
     width: 65%;
     height: 350px;
-    background-color: rgb(0, 155, 245);
 }
 
 section {
