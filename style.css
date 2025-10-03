@@ -18,6 +18,7 @@ body {
 .container {
     display: flex;
     justify-content: space-between;
+    gap: 10%;
 }
 
 header {
@@ -32,19 +33,13 @@ header {
 
 .link {
     width: 60%;
-    padding: 3px;
+    padding: 10px;
     text-align: center;
-    display: flex;
-    justify-content: space-around;
-    
 }
 
 .login {
     background-color: white;
     text-align: end;
-    border-radius: 33%;
-    height: 81%;
-    padding: 10px;
     color: black;
 }
 
@@ -68,32 +63,24 @@ header {
 }
 
 .smallbox {
-    width: 35%;
-    height: 350px;
+    min-width: 35%;
+    min-height: 350px;
     color: black;
     padding-top: 10%;
 }   
 
 .bigbox {
-    width: 65%;
-    height: 350px;
+    min-width: 65%;
+    min-height: 350px;
 }
 
 section {
     padding: 2em 0 2em 0;
-    height: 550px;
+    min-height: 550px;
 }
 
 .bggrey {
     background-color: rgb(211, 211, 211);
-}
-
-.container3 {
-   display: flex;
-   background-color: rgb(9, 73, 0);
-   width: 50%;
-   height: 650px;
-   justify-content: center;
 }
 
 footer {
@@ -108,32 +95,16 @@ footer {
    
 }
 
-.boxrose {
-    width: 30%;
-    height: 100%;
-    background-color: rgb(255, 131, 179);
-}
-
-.boxg {
-    width: 18%;
-    height: 100%;
-    background-color: rgb(0, 148, 104);
-}
-
 button {
-    background-color: rosybrown;
-    padding: 2px;
-    margin-top: 7%;
-    border-radius: 30%;
-    height: 75%
+    margin-top: 12%;
+    padding: 2px 5px;
+    border: none;
+    border-radius: 25px; 
+    font-size: 15px;
+    
 }
 
-#bggreen {
-    background-color:  rgb(43, 167, 115);
-    padding: 2%;
-    text-align: end;
-    margin: 0 auto;
-}
+*** ero qui per riprendere sui bottoni e vedere il weight sul font della scitta***
 
 hr  {
     margin-bottom: 2em;
@@ -166,7 +137,21 @@ h1 {
     margin-bottom: 3%;
     text-align: center;
     font-size: xx-large;
-    
+}
 
-    
+
+.bgh4 {
+    font-size: xx-large;
+      background-image: url(./img/stars.svg);
+      width: 50%;
+      padding-top: 40px;
+      margin: 40px auto;
+      margin-bottom: 70px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: top center;
+}
+
+.fontblack {
+    color: black;
 }
