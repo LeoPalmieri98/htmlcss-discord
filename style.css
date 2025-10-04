@@ -17,7 +17,6 @@ body {
 
 .container {
     display: flex;
-    justify-content: space-between;
     gap: 10%;
 }
 
@@ -89,9 +88,9 @@ footer {
 
 .container4 {
    display: flex;
-   background-color: rgb(197, 176, 195);
    width: 50%;
    height: 550px;
+   padding: 4%;
    
 }
 
@@ -104,7 +103,6 @@ button {
     
 }
 
-*** ero qui per riprendere sui bottoni e vedere il weight sul font della scitta***
 
 hr  {
     margin-bottom: 2em;
@@ -129,8 +127,8 @@ p {
 }
 
 .buttondiscord {
-background-color: rgba(77, 80, 91, 1);
-color: white;
+    background-color: rgba(77, 80, 91, 1);
+    color: white;
 }
 
 h1 {
@@ -142,16 +140,70 @@ h1 {
 
 .bgh4 {
     font-size: xx-large;
-      background-image: url(./img/stars.svg);
-      width: 50%;
-      padding-top: 40px;
-      margin: 40px auto;
-      margin-bottom: 70px;
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: top center;
+    background-image: url(./img/stars.svg);
+    width: 50%;
+    padding-top: 40px;
+    margin: 40px auto;
+    margin-bottom: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
 }
 
 .fontblack {
     color: black;
+}
+
+ul {
+    list-style: none;
+    margin-left: 15%;
+
+}
+
+li {
+    margin-bottom: 5%;
+}
+
+.footeritaly {
+    MIN-width: 30%;
+    text-align: center;
+}
+
+.listcolumn {
+    min-width: 17,5%;
+}
+
+h5 {
+    margin-left: 15%;
+    padding-bottom: 5%;
+    color: hsla(214, 61%, 34%, 1);
+}
+
+#flag {
+    max-height: 15px;
+}
+
+h4 {
+    font-size: xx-large;
+    text-align: start;
+}
+
+.flexrow {
+display: flex;
+flex-direction: row;
+padding-top: 10%;
+text-align: center;
+}
+
+footer {
+    background-color: rgba(56, 51, 69, 1);
+}
+
+.fontcolorblu {
+   color: hsla(214, 61%, 34%, 1);
+}
+
+.buttonfooter {
+    text-align: end;
+    justify-content: end;
 }
