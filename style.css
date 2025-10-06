@@ -53,7 +53,7 @@ header {
    align-items: center;
 }
 
-#layout1 {
+#layout-header {
     background-color: rgb(0, 0, 182);
     margin-top: 15px;
     background-image: url(img/jumbo.png);
